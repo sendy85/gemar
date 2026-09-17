@@ -148,7 +148,7 @@ export function Footer() {
 
       {/* Copyright */}
       <div className="border-t border-white/10">
-        <div className="container-app py-5 text-xs text-white/40">
+        <div className="container-app flex justify-center py-5 text-center text-xs text-white/40">
           © 2026 GEMARI - Gerakan Muda Mudi Blimbingsari
         </div>
       </div>
