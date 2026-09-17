@@ -19,7 +19,7 @@ export default function SejarahPage() {
         </p>
         <p>
           Seiring berjalannya waktu, GEMARI terus berkembang mengikuti
-          kebutuhan dan aspirasi anggotanya — mulai dari kegiatan sosial,
+          kebutuhan dan aspirasi anggotanya  mulai dari kegiatan sosial,
           keagamaan, olahraga, hingga aksi peduli lingkungan. Setiap periode
           kepengurusan membawa warna dan program barunya sendiri, namun
           semangat kebersamaan yang menjadi fondasi awal tetap terjaga.
@@ -30,11 +30,6 @@ export default function SejarahPage() {
           silaturahmi antar generasi.
         </p>
       </div>
-      <p className="mt-8 rounded-card border border-dashed border-navy/15 bg-brand-green-light/40 p-4 text-xs text-muted">
-        Catatan: konten di halaman ini masih berupa draf awal. Detail sejarah
-        (tahun berdiri, tokoh pendiri, dan momen penting lain) bisa
-        disesuaikan lagi oleh pengurus lewat dashboard admin.
-      </p>
     </article>
   );
 }
