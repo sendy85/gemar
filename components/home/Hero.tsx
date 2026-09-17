@@ -30,7 +30,7 @@ export function Hero() {
 
         <p className="mt-6 max-w-lg text-balance text-sm text-white/70 sm:text-base">
           Wadah pemuda-pemudi Blimbingsari untuk bergerak, berkarya, dan
-          peduli — lewat kegiatan sosial, lingkungan, dan kebersamaan yang
+          peduli lewat kegiatan sosial, lingkungan, dan kebersamaan yang
           terus hidup dari satu generasi ke generasi berikutnya.
         </p>
 
