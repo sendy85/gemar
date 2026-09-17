@@ -29,7 +29,7 @@ export function AboutSection() {
             Wadah pemuda Blimbingsari untuk bergerak dan berkarya
           </h2>
           <p className="mt-4 text-sm text-white/70 sm:text-base">
-            GEMARI — Gerakan Muda Mudi Blimbingsari menghimpun pemuda-pemudi
+            GEMARI  Gerakan Muda Mudi Blimbingsari menghimpun pemuda-pemudi
             dusun dalam satu wadah yang aktif, kreatif, dan terbuka. Selain
             menjaga tradisi kebersamaan antar generasi, GEMARI juga menjadi
             ruang belajar berorganisasi sambil memberi dampak nyata bagi
