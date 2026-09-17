@@ -17,8 +17,8 @@ export default function TentangPage() {
         </p>
         <p>
           Organisasi ini digerakkan sepenuhnya oleh pemuda-pemudi setempat,
-          dengan semangat kebersamaan sebagai nilai utama. Setiap kegiatan —
-          baik sosial, budaya, olahraga, maupun lingkungan — dirancang dan
+          dengan semangat kebersamaan sebagai nilai utama. Setiap kegiatan 
+          baik sosial, budaya, olahraga, maupun lingkungan  dirancang dan
           dijalankan secara gotong royong oleh anggota.
         </p>
         <p>
