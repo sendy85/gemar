@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Instagram, Facebook, Youtube, MapPin } from "lucide-react";
+import { Instagram,  MapPin } from "lucide-react";
 import { NAV_ITEMS } from "@/lib/nav-items";
 
 export function Footer() {
@@ -63,22 +63,25 @@ export function Footer() {
             >
               <Instagram size={16} />
             </a>
-
             <a
-              href="#"
-              aria-label="Facebook GEMARI"
-              className="rounded-full bg-white/10 p-2 transition-colors hover:bg-brand-green"
-            >
-              <Facebook size={16} />
-            </a>
-
-            <a
-              href="#"
-              aria-label="YouTube GEMARI"
-              className="rounded-full bg-white/10 p-2 transition-colors hover:bg-brand-green"
-            >
-              <Youtube size={16} />
-            </a>
+  href="https://www.tiktok.com/@kartar.gemari?_r=1&_t=ZS-99tUz7GPMPM"
+  aria-label="TikTok GEMARI"
+  className="rounded-full bg-white/10 p-2 transition-colors hover:bg-brand-green"
+>
+  {/* SVG Ikon TikTok */}
+  <svg 
+    width="16" 
+    height="16" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+  </svg>
+</a>           
           </div>
         </div>
 
