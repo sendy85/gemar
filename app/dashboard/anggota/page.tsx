@@ -26,12 +26,11 @@ export default async function DashboardAnggotaPage() {
       />
 
       <div className="overflow-x-auto rounded-card border border-navy/10 bg-white shadow-softer">
-        <table className="w-full min-w-[720px] text-left text-sm">
+        <table className="w-full min-w-[640px] text-left text-sm">
           <thead>
             <tr className="border-b border-navy/10 text-xs uppercase tracking-wide text-muted">
               <th className="px-4 py-3 font-medium">Nama</th>
               <th className="px-4 py-3 font-medium">Status</th>
-              <th className="px-4 py-3 font-medium">Telepon</th>
               <th className="px-4 py-3 font-medium">Bergabung</th>
               <th className="px-4 py-3 text-right font-medium">Aksi</th>
             </tr>
@@ -64,7 +63,6 @@ export default async function DashboardAnggotaPage() {
                     {m.status === "aktif" ? "Aktif" : "Tidak Aktif"}
                   </Badge>
                 </td>
-                <td className="px-4 py-3 text-muted">{m.phone_number ?? "-"}</td>
                 <td className="px-4 py-3 text-muted">
                   {m.join_year ?? formatDate(m.created_at)}
                 </td>
