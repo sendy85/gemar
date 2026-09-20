@@ -52,26 +52,6 @@ export function MemberForm({
           </select>
         </FormField>
 
-        <FormField label="Tanggal Lahir" htmlFor="birth_date">
-          <input
-            id="birth_date"
-            name="birth_date"
-            type="date"
-            defaultValue={member?.birth_date ?? ""}
-            className={fieldInputClass}
-          />
-        </FormField>
-
-        <FormField label="Nomor Telepon" htmlFor="phone_number">
-          <input
-            id="phone_number"
-            name="phone_number"
-            defaultValue={member?.phone_number ?? ""}
-            className={fieldInputClass}
-            placeholder="08xxxxxxxxxx"
-          />
-        </FormField>
-
         <FormField label="Divisi" htmlFor="division_id">
           <select
             id="division_id"
@@ -113,16 +93,6 @@ export function MemberForm({
           />
         </FormField>
       </div>
-
-      <FormField label="Alamat" htmlFor="address">
-        <textarea
-          id="address"
-          name="address"
-          rows={2}
-          defaultValue={member?.address ?? ""}
-          className={fieldInputClass}
-        />
-      </FormField>
 
       <FormActions cancelHref="/dashboard/anggota" />
     </form>
