@@ -57,7 +57,7 @@ export function Footer() {
 
           <div className="mt-5 flex items-center gap-3">
             <a
-              href="#"
+              href="https://www.instagram.com/gerakanmudamudiblimbingsari/"
               aria-label="Instagram GEMARI"
               className="rounded-full bg-white/10 p-2 transition-colors hover:bg-brand-green"
             >
