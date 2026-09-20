@@ -4,11 +4,11 @@ import { Target, Compass } from "lucide-react";
 export const metadata: Metadata = { title: "Visi & Misi" };
 
 const misi = [
-  "Menghimpun dan mempersatukan pemuda-pemudi Blimbingsari dalam satu wadah organisasi.",
-  "Mengadakan kegiatan sosial, budaya, dan olahraga yang mempererat kebersamaan antar anggota.",
-  "Menumbuhkan kepedulian terhadap lingkungan melalui aksi bersih dan penghijauan.",
-  "Mendorong partisipasi aktif pemuda dalam kegiatan kemasyarakatan di Blimbingsari.",
-  "Mengelola organisasi secara transparan, tertib administrasi, dan akuntabel.",
+  "memberikan ruang dan tempat untuk pemuda/i untuk mengembangkan kreativitas.",
+  "melaksanakan tugas dengan disiplin dan tanggung jawab.",
+  "meningkatkan penguasaan ilmu pengetahuan dan teknologi.",
+  "membentuk pemuda yang beragama dan beriman.",
+  "menjadikan pemuda/i yang menjunjung tinggi nilai-nilai Pancasila.",
 ];
 
 export default function VisiMisiPage() {
@@ -24,8 +24,7 @@ export default function VisiMisiPage() {
         </div>
         <h2 className="mt-3 text-lg font-semibold text-navy">Visi</h2>
         <p className="mt-2 text-sm leading-relaxed text-muted sm:text-base">
-          Menjadi wadah pemuda Blimbingsari yang aktif, kompak, kreatif, dan
-          peduli terhadap lingkungan serta masyarakat sekitar.
+          Membangun generasi muda yang kreatif, disiplin, beriman, berkualitas dan bertanggung jawab.
         </p>
       </div>
 
